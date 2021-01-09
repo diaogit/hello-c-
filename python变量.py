@@ -7,3 +7,12 @@ print(type(b));
 c=3.14;
 print(c);
 print(type(c));
+d=();
+print(type(d));#元组类型
+e=[];
+print(type(e));#列表类型
+f={};
+print(type(f));#字典类型
+#变量以字母或下划线开头，不能以数字开头
+#变量区分大小写
+#关键字不能作为变量名
