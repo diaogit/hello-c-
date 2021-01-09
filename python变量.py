@@ -1,0 +1,9 @@
+a=1+1
+print(a);
+print(type(a));
+b='你好';
+print(b);
+print(type(b));
+c=3.14;
+print(c);
+print(type(c));
