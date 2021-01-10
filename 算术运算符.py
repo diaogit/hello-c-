@@ -20,3 +20,6 @@ print(a>b and c<d);
 print(not a>b);
 print(a>b or c>d);
 print(a>b and c<d or b<a and d>c or b<c and b>a);#优先级
+#赋值运算 +=  *=  /=  -=  %=  **=  //=
+c+=a;
+print(c);#其它的类似
