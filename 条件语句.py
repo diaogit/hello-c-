@@ -31,3 +31,15 @@ elif(people==computer):
 else:
     print('你输了！');
     pass;
+xf=int(input("请输入你的学分："));
+if(xf>10):
+    cj=int(input("请输入你的成绩："));
+    if(cj>80):
+        print("恭喜你，表现很好！回家不会被清炒竹笋了！");
+        pass;
+    else:
+        print("你的学分虽然合格了，但很可惜成绩不合格，回家可能会被清炒竹笋哦！");
+        pass;
+    pass;
+else:
+    print("你小子也太差劲了吧！连学分都不合格，回家叫你家长来！");
