@@ -31,7 +31,7 @@ elif(people==computer):
 else:
     print('你输了！');
     pass;
-xf=int(input("请输入你的学分："));
+xf=int(input("请输入你的学分："))#if else 的嵌套使用;
 if(xf>10):
     cj=int(input("请输入你的成绩："));
     if(cj>80):
